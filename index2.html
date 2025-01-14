@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+
+    <link rel="stylesheet" href="Script/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>LISTA DE COMPRAS</h1>
+        <p class="subtitule">FACILITE SUA IDA AO SUPERMERCADO</p>
+        
+        <div class="form">
+           
+            <div class="inputGroup">
+            <input id="item" type="text" placeholder="Digite o nome do item">
+            <input id="quantidade" type="number" placeholder="Qtd" min="1">
+           </div>
+
+            <button id="add" onclick="adicionarItem()">Adicionar Item</button>
+        </div>
+
+        <ul class="lista"></ul>
+            
+
+        <div class="actions">
+            <button class="clean" onclick="limparLista()">Limpar lista</button>
+            <button class="clean-buy"onclick="limparComprados()">Limpar comprados</button>
+        </div>
+
+
+    </div>
+    <script src="Script/script2.js"></script>
+</body>
+</html>
