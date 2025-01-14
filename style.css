@@ -114,3 +114,20 @@ li {
     display: flex;
     margin: 20px 0px;
 }
+
+@media(max-width: 800px){
+    #item {
+        width: 97%;
+    }
+
+    #quantidade{
+        width: 97%;
+    }
+
+    .inputGroup {
+        flex-direction: column;
+    }
+    
+}
+
+
